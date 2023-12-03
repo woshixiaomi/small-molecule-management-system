@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>4.jpg</file>
+        <file>5.jpg</file>
+        <file>6.jpg</file>
+        <file>7.jpg</file>
+        <file>8.jpg</file>
+        <file>9.jpg</file>
+        <file>10.jpg</file>
+        <file alias="1">qss/AMOLED.qss</file>
+        <file alias="2">qss/Aqua.qss</file>
+        <file alias="3">qss/ConsoleStyle.qss</file>
+        <file alias="4">qss/ElegantDark.qss</file>
+        <file alias="5">qss/LICENSE</file>
+        <file alias="6">qss/MacOS.qss</file>
+        <file alias="7">qss/ManjaroMix.qss</file>
+        <file alias="8">qss/MaterialDark.qss</file>
+        <file alias="9">qss/NeonButtons.qss</file>
+    </qresource>
+</RCC>

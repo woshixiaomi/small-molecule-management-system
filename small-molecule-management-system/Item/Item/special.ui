@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Special</class>
+ <widget class="QMainWindow" name="Special">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>613</width>
+    <height>343</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(220, 220, 165);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>221</y>
+      <width>360</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>360</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(239, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>请大家登记后及时退出SSO登录,避免合规风险!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>221</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(211, 174, 255);</string>
+    </property>
+    <property name="text">
+     <string>HPLC</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>221</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(176, 176, 132);</string>
+    </property>
+    <property name="text">
+     <string>MS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>541</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/picture/85.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(223, 220, 255);</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action"/>
+   <addaction name="separator"/>
+   <addaction name="action_special"/>
+   <addaction name="separator"/>
+   <addaction name="action_normal"/>
+   <addaction name="separator"/>
+   <addaction name="action_server"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(223, 220, 255);</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_return"/>
+   <addaction name="separator"/>
+   <addaction name="actionLCMS_HPLC_MS"/>
+   <addaction name="separator"/>
+   <addaction name="action_my"/>
+   <addaction name="separator"/>
+   <addaction name="action_login"/>
+   <addaction name="separator"/>
+   <addaction name="action_find"/>
+   <addaction name="separator"/>
+   <addaction name="action_link"/>
+  </widget>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="picture.qrc">
+     <normaloff>:/picture/40.jpg</normaloff>:/picture/40.jpg</iconset>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </action>
+  <action name="action_special">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="picture.qrc">
+     <normaloff>:/picture/42.jpg</normaloff>:/picture/42.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>特殊</string>
+   </property>
+  </action>
+  <action name="action_normal">
+   <property name="icon">
+    <iconset resource="picture.qrc">
+     <normaloff>:/picture/72.jpg</normaloff>:/picture/72.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>常规</string>
+   </property>
+  </action>
+  <action name="action_server">
+   <property name="icon">
+    <iconset resource="picture.qrc">
+     <normaloff>:/picture/51.jpg</normaloff>:/picture/51.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>服务平台</string>
+   </property>
+  </action>
+  <action name="actionLCMS_HPLC_MS">
+   <property name="text">
+    <string>LCMS/HPLC/MS</string>
+   </property>
+  </action>
+  <action name="action_my">
+   <property name="text">
+    <string>我的样品</string>
+   </property>
+  </action>
+  <action name="action_login">
+   <property name="text">
+    <string>样品登记</string>
+   </property>
+  </action>
+  <action name="action_find">
+   <property name="text">
+    <string>样品查询</string>
+   </property>
+  </action>
+  <action name="action_link">
+   <property name="text">
+    <string>联系我们</string>
+   </property>
+  </action>
+  <action name="action_return">
+   <property name="text">
+    <string>返回主界面</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="picture.qrc"/>
+ </resources>
+ <connections/>
+</ui>

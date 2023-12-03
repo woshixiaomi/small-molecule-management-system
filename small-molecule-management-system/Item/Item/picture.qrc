@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>picture/5.jpg</file>
+        <file>picture/40.jpg</file>
+        <file>picture/41.jpg</file>
+        <file>picture/42.jpg</file>
+        <file>picture/43.jpg</file>
+        <file>picture/48.png</file>
+        <file>picture/49.jpg</file>
+        <file>picture/50.jpg</file>
+        <file>picture/51.jpg</file>
+        <file>picture/64.jpg</file>
+        <file>picture/65.jpg</file>
+        <file>picture/58.jpg</file>
+        <file>picture/55.jpg</file>
+        <file>picture/60.jpg</file>
+        <file>picture/16.jpg</file>
+        <file>picture/21.jpg</file>
+        <file>picture/24.jpg</file>
+        <file>picture/61.jpg</file>
+        <file>picture/67.jpg</file>
+        <file>picture/71.jpg</file>
+        <file>picture/72.jpg</file>
+        <file>picture/111.jpg</file>
+        <file>picture/63.jpg</file>
+        <file alias="black-1">QSS-master/AMOLED.qss</file>
+        <file alias="skin-2">QSS-master/Aqua.qss</file>
+        <file alias="skin-3">QSS-master/ConsoleStyle.qss</file>
+        <file alias="skin-4">QSS-master/ElegantDark.qss</file>
+        <file alias="skin-5">QSS-master/MacOS.qss</file>
+        <file alias="skin-6">QSS-master/ManjaroMix.qss</file>
+        <file alias="skin-7">QSS-master/MaterialDark.qss</file>
+        <file alias="skin-8">QSS-master/NeonButtons.qss</file>
+        <file alias="skin-9">QSS-master/Ubuntu.qss</file>
+        <file>picture/84.jpg</file>
+        <file>picture/83.jpg</file>
+        <file>picture/85.jpg</file>
+        <file>picture/11.jpg</file>
+        <file>picture/100.jpg</file>
+        <file>picture/aa.jpg</file>
+        <file>picture/110.jpg</file>
+    </qresource>
+</RCC>
