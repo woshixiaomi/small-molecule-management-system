@@ -21,5 +21,5 @@ private slots:
 private:
     Ui::Setup *ui;
 };
-
+//git push
 #endif // SETUP_H
